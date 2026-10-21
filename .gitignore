@@ -1,0 +1,18 @@
+﻿.venv/
+.venv-1/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# Oversized trained model
+/models/diabetes_random_forest.joblib
+
+# Temporary local backup
+/app_backup_before_shap.py
